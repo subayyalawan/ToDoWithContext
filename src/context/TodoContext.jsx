@@ -1,8 +1,7 @@
 import { createContext, useContext } from "react";
 
 export const ToDoContext = createContext({
-    toDos: [
-  ],
+  toDos: [],
 
   addToDo: (todoMsg) => {},
   updateToDo: (id, toDoMsg) => {},
